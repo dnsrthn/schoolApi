@@ -1,0 +1,32 @@
+{
+  "name": "schoolapi",
+  "version": "1.0.0",
+  "description": "Practica Supervisada: Laboratiorio 2, Gestion Academica",
+  "homepage": "https://github.com/dnsrthn/schoolApi#readme",
+  "bugs": {
+    "url": "https://github.com/dnsrthn/schoolApi/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnsrthn/schoolApi.git"
+  },
+  "license": "ISC",
+  "author": "Ethan Juarez",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "type": "module"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
